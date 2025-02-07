@@ -1,0 +1,11 @@
+// next.config.js
+module.exports = {
+  reactStrictMode: true,
+  env: {
+    customKey: 'myValue',
+  },
+  webpack: (config, { isServer }) => {
+    // Custom webpack configuration
+    return config;
+  },
+}
